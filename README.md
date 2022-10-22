@@ -1,31 +1,27 @@
 # FakeYouHelper
- Conversion and Speech-To-Text script to help with creation of FakeYou datasets /  
- Script conversione e Speech-To-Text per la creazione di dataset FakeYou
+ Conversion and Speech-To-Text script to help with creation of FakeYou datasets
 
+### What does this do?
+ 1. Resamples all wave files to 22050Hz mono (FakeYou standard)
+ 2. Transcribes text from them and generates a list to use for AI training
 ### Setup
-Clone this git \  
-Clona questo git
+Clone this repository
 ```
 git clone https://github.com/cavv4/FakeYouHelper.git
 ```
-Change directory \  
-Cambia directory
+Change directory
 ```
 cd FakeYouHelper
 ```
-Install requirements \  
-Installa i requirements
+Install requirements
 ```
 pip install -r requirements.txt
 ```
 ### Usage
-Put all your wave files into an "input" folder (it must be in the same folder as "fakeyou.py") \  
-Metti tutti i tuoi file wav in una cartella "input" (deve essere nella stessa cartella di "fakeyou.py")  
+Put all your wave files into an "`input`" folder (it must be in the same folder as "`fakeyou.py`")
   
-Start the script \  
-Fai partire lo script
+Start the script
 ```
 python fakeyou.py
 ```
-That's it, now wait \  
-Questo è tutto, ora aspetta
+That's it, now wait
