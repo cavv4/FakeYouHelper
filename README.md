@@ -26,7 +26,7 @@ sudo apt install ffmpeg
   
 Windows:
 1. Download build from [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z)
-2. Unzip its content in `C:\ffmpeg\`
+2. Open the archive and extract the contents of `ffmpeg-[version]-essentials_build` in `C:\ffmpeg\`
 3. Go to your `Computer properties` and open `Advanced system settings`
 4. Click on `Environment Variables`
 5. Find the `PATH` (or `Path`) variable in the bottom window, select it and click on `Edit...`
