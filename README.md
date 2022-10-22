@@ -18,11 +18,11 @@ Install requirements
 pip install -r requirements.txt
 ```
 Download a VOSK model for your language from [here](https://alphacephei.com/vosk/models)  
-and extract it's content into a "`model`" folder (same folder as "`fakeyou.py`") like this:
+and extract it's content into a "`model`" folder (same directory as "`fakeyou.py`") like this:  
 ![VOSK model folder structure](https://cavv.it/assets/images/2022-10-22%2015_01_51-Window.png)
 ### Usage
-Put all your wave files into an "`input`" folder (same folder as "`fakeyou.py`")
-  
+Put all your wave files into an "`input`" folder (same directory as "`fakeyou.py`")  
+![Wave files folder structure](https://cavv.it/assets/images/2022-10-22%2015_10_26-input.png)
 Start the script
 ```
 python fakeyou.py
