@@ -2,7 +2,7 @@
  Conversion and Speech-To-Text script to help with creation of FakeYou datasets
 
 ### What does this do?
-1. Resamples all wave files to 22050Hz mono (FakeYou standard)
+1. Resamples all wave files to 22050Hz 16-bit mono (FakeYou standard)
 2. Transcribes text from them and generates a list to use for AI training
 ### Setup
 You must have [Python 3](https://www.python.org/downloads/) and [Git](https://git-scm.com/downloads)  

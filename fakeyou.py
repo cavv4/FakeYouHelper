@@ -22,12 +22,12 @@ for filename in files:
 if count == -1:
 	print('\nNo wave files in "input" folder.\n')
 else:
-	print("\nResampling audio files to 22050Hz mono...")
+	print("\nResampling audio files to 22050Hz 16-bit mono...")
 	count += 1
 	for filename in files:
 		if os.path.splitext(filename)[1] == '.wav':
 			if os.path.splitext(filename)[1] == '.wav':
-				stream = ffmpeg.input('./input/' + filename).output("./wavs/" + filename, **{'ar': '22050'}, ac=1)
+				stream = ffmpeg.input('./input/' + filename).output("./wavs/" + filename, **{'ar': '22050'}, **{'sample_fmt': 's16'}, **{'ac': '1'})
 				ffmpeg.run(stream, quiet=True, overwrite_output=True)
 	print('Output in "wavs" folder.\n')
 	
