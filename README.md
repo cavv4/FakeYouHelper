@@ -5,6 +5,7 @@
 1. Resamples all wave files to 22050Hz mono (FakeYou standard)
 2. Transcribes text from them and generates a list to use for AI training
 ### Setup
+Install [Python 3](https://www.python.org/downloads/) and [Git](https://git-scm.com/downloads)  
 Clone this repository
 ```
 git clone https://github.com/cavv4/FakeYouHelper.git
