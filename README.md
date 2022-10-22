@@ -5,21 +5,21 @@
 1. Resamples all wave files to 22050Hz mono (FakeYou standard)
 2. Transcribes text from them and generates a list to use for AI training
 ### Setup
-Install [Python 3](https://www.python.org/downloads/) and [Git](https://git-scm.com/downloads)  
+You must have [Python 3](https://www.python.org/downloads/) and [Git](https://git-scm.com/downloads)  
   
-Clone this repository
+- Clone this repository
 ```
 git clone https://github.com/cavv4/FakeYouHelper.git
 ```
-Change directory
+- Change directory
 ```
 cd FakeYouHelper
 ```
-Install requirements
+- Install requirements
 ```
 pip3 install -r requirements.txt
 ```
-Install ffmpeg  
+- Install ffmpeg  
   
 Linux:
 ```
@@ -35,14 +35,13 @@ Windows:
 6. Click on `New` and paste in `C:\ffmpeg\bin`
 7. Click `OK` and you are done
   
-Download a VOSK model for your language from [here](https://alphacephei.com/vosk/models)  
-and extract its content into a `model` folder like this:  
+- Download a VOSK model for your language from [here](https://alphacephei.com/vosk/models) and extract its content into a `model` folder like this:  
 ![VOSK model folder structure](https://cavv.it/assets/images/2022-10-22%2015_01_51-Window.png)  
 ### Usage
-Put all your wave files into an `input` folder  
+- Put all your wave files into an `input` folder  
 ![Wave files folder structure](https://cavv.it/assets/images/2022-10-22%2015_10_26-input.png)  
-Start the script
+- Start the script
 ```
 python3 fakeyou.py
 ```
-That's it, now wait
+- That's it, now wait
